@@ -1,0 +1,27 @@
+[
+	{
+    "id": 1,
+    "name": "Scrum.io",
+    "shortDescription": "Final project of SoyHenry's full stack development bootcamp. Scrum.io is a SCRUM management system, which aims to provide a complete set of tools for both SCRUM Masters and developers.",
+    "description": "Scrum.io is a project developed in a team of 7 people and was made as the final project of SoyHenry's full stack development bootcamp. It's a SCRUM management system, designed to provide a set of tools for both SCRUM masters and developers. It includes a lot of features, such as tracking of each developer's perfomance, changes in real time, notifications, interactive poker planning rooms, charts to measure the development of the project (burndown chart and customized statistics), chat in real time, among others.",
+    "pictures": [
+      "/scrum-io/scrum-io-1.JPG",
+      "/scrum-io/scrum-io-2.JPG",
+      "/scrum-io/scrum-io-3.JPG",
+      "/scrum-io/scrum-io-4.JPG",
+      "/scrum-io/scrum-io-5.JPG"
+    ],
+    "placeholder": "/placeholder-1.png",
+    "liveViewLink": "https://scrum-io.vercel.app/",
+    "githubLink": "https://github.com/SHIMER-jpg/Scrum.io/",
+    "techStack": [
+      "ReactJS",
+      "CSS3",
+      "ReduxJS",
+      "MongoDB",
+      "ExpressJS",
+      "NodeJS",
+      "Socket.io"
+    ]
+  }
+]

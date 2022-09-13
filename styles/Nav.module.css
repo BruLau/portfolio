@@ -1,0 +1,28 @@
+.navHeader{
+	position: fixed;
+
+	background-color: #030308;
+	z-index: 100000;
+
+	padding: 20px 40px;
+	width: 100%;
+	transition: all 0.35s ease;
+}
+
+.nobg{
+	background: none;
+}
+
+.content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.content a{
+	color: #EF2844;
+
+	font-size: 2rem;
+	font-weight: 600;
+}

@@ -1,0 +1,42 @@
+.container{
+	position: relative;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+
+    padding: 40px 10px;
+}
+
+.selectedImage {
+    position: relative;
+    width: 90%;
+    height: 350px;
+
+    box-shadow: 6px 6px 4px 1px rgba(161, 32, 50, 0.8);
+    border: 5px solid #EF2844;
+}
+
+.imagesCollection{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    gap: 20px;
+    width: 90%;
+}
+
+.imagePreview{
+    position: relative;
+    width: 70px;
+    height: 70px;
+
+    cursor: pointer;
+}
+
+.imgSelected{
+    border: 5px solid #EF2844 !important;
+}

@@ -1,0 +1,118 @@
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMeCard{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    gap: 20px;
+    position: relative;
+    margin: auto;
+    width: 90%;
+
+    background-color: #121212;
+    box-shadow: 6px 6px 4px 1px rgba(10, 10, 10, 0.8);
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.cardLeft{
+    display: grid;
+    grid-template-rows: 6fr 1fr;
+    gap: 20px;
+    position: relative;
+}
+
+.cardRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+.photo{
+    position: relative;
+    border: 10px solid #0F0F0F;
+    border-radius: 8px;
+
+    max-height: 400px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    margin: auto;
+
+    background-color: #0F0F0F;
+    border-left: 10px solid #EF2844;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.title{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.title h2{
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.title h3{
+    color: #EF2844;
+}
+
+.description p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.social{
+    color: #EF2844;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    transition: .5s all ease;
+}
+.icon:hover{
+    color: #ffffff;
+}
+.cvButton{
+    display: flex;
+    position: relative;
+    align-items: center;
+    align-self: flex-end;
+    color: #EF2844;
+}
+.cvButton a{
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 20px;
+    color: #EF2844;
+}
+.cvButton a:hover,
+.cvButton a:hover h2{
+    color: #ffffff;
+    cursor: pointer;
+    transition: .5s all ease;
+}
+.cvButton h2{
+    font-weight: 600;
+}

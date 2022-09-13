@@ -1,0 +1,117 @@
+.container{
+	position: fixed;
+	height: 100vh;
+	width: 100%;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	background: #030308; 
+	background: rgb(3,3,8);
+	background: linear-gradient(180deg, rgba(3,3,8,1) 0%, rgba(3,3,8,1) 80%, rgba(173,28,48,1) 100%);
+	transition: all 0.15s ease-in-out;
+	z-index: 10000;
+
+	display: flex;
+}
+
+.opening {
+	animation: fadeIn 0.35s;
+	animation-iteration-count: 1;
+}
+
+.closing {
+	animation: fadeOut 0.35s linear;
+	animation-iteration-count: 1;
+}
+
+.menu{
+	display: flex;
+	margin: auto;
+	width: 100%;
+}
+
+.content{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	width: 100%;
+}
+
+.menuGroup{
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.navigation{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	
+	gap: 20px;
+}
+
+.navigation .option{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+
+	color: #FFFFFF;
+}
+.navigation .option a{
+	color: #FFFFFF;
+
+	font-size: 25px;
+	font-weight: 500;
+
+	transition: all ease .3s;
+}
+.option:hover,
+.option:hover a{
+	color: #EF2844;
+	cursor: pointer;
+}
+
+.social{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 30px;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    transition: .5s all ease;
+}
+.icon:hover{
+    color: #EF2844;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		top: 100vh;
+	}
+	to {
+		opacity: 1;
+		top: 0vh;
+	}
+}
+
+@keyframes fadeOut {
+	from {
+		opacity: 1;
+		top: 0vh;
+	}
+	to {
+		opacity: 0;
+		visibility: hidden;
+		top: 100vh;
+	}
+}

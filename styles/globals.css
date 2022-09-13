@@ -1,0 +1,87 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+h1{
+  color: #EF2844;
+  font-size: 72px;
+  line-height: 72px;
+}
+
+h2{
+  color: #EF2844;
+  font-size: 28px;
+  line-height: 28px;
+}
+
+h3{
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+h4{
+  color: #ffffff;
+  font-size: 15px;
+}
+
+p{
+  color: #ffffff;
+  font-size: 13px;
+  word-wrap: break-word;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 3px;
+  /* display: none; */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #04040a;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #EF2844;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #EF2844;
+}
+
+button{
+  color: #EF2844;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 2px solid #EF2844;
+  background: transparent;
+  transition: all ease 0.5s;
+}
+
+button:hover{
+  cursor: pointer;
+  background: #EF2844;
+  color: #030308;
+}
