@@ -1,7 +1,7 @@
 .container{
 	position: relative;
     width: 100%;
-
+	
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -30,7 +30,7 @@
 .groupTitle{
     padding: 10px 20px;
     background-color: rgb(57, 255, 20);
-    box-shadow: 6px 6px 4px 1px rgba(161, 32, 50, 0.8);
+    box-shadow: 6px 6px 4px 1px #08090C;
     width: 100%;
 }
 .groupTitle h3{

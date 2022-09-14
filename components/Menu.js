@@ -20,8 +20,8 @@ export default function Menu({ isMenuVisible, toggleMenu }){
 							<h2>Social</h2>
 						</div>
 						<div className={styles.social}>
-							<Link 
-								href="www.linkedin.com/in/bruno-mateo-lauricella" 
+							<a
+								href="https://www.linkedin.com/in/bruno-mateo-lauricella/" 
 								target="_blank" 
 								rel="noreferrer" 
 								aria-label="Linkedin"
@@ -29,8 +29,8 @@ export default function Menu({ isMenuVisible, toggleMenu }){
 								onClick={() => toggleMenu()}
 							>
 		                        <BsLinkedin className={styles.icon}/>
-		                    </Link>
-		                    <Link 
+		                    </a>
+		                    <a 
 		                    	href="https://github.com/BruLau" 
 		                    	target="_blank" 
 		                    	rel="noreferrer" 
@@ -39,15 +39,15 @@ export default function Menu({ isMenuVisible, toggleMenu }){
 		                    	onClick={() => toggleMenu()}
 		                    >
 		                        <BsGithub className={styles.icon}/>
-		                    </Link>
-		                    <Link
+		                    </a>
+		                    <a
 		                    	href="mailto:brunomlauricella@gmail.com" 
 		                    	aria-label="Email"
 		                    	passHref
 		                    	onClick={() => toggleMenu()}
 		                    >
 		                        <GrMail className={styles.icon}/>
-		                    </Link>
+		                    </a>
 		                </div>
 					</div>
 					<div className={styles.menuGroup}>
