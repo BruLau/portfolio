@@ -1,27 +1,26 @@
 [
 	{
     "id": 1,
-    "name": "Scrum.io",
-    "shortDescription": "Final project of SoyHenry's full stack development bootcamp. Scrum.io is a SCRUM management system, which aims to provide a complete set of tools for both SCRUM Masters and developers.",
-    "description": "Scrum.io is a project developed in a team of 7 people and was made as the final project of SoyHenry's full stack development bootcamp. It's a SCRUM management system, designed to provide a set of tools for both SCRUM masters and developers. It includes a lot of features, such as tracking of each developer's perfomance, changes in real time, notifications, interactive poker planning rooms, charts to measure the development of the project (burndown chart and customized statistics), chat in real time, among others.",
+    "name": "Nómade",
+    "shortDescription": "Final project of SoyHenry's full stack development bootcamp. Nomade is a service that lets property owners rent out their spaces to travelers looking for a place to stay.",
+    "description": "Nómade offers you a unique experience as a traveler, you can find lodgings anywhere in the world, it offers you an interactive search through a map that contains information about the available lodgings, said map suggests possible lodgings according to your location, you can adjust it to verify accommodations in the destination of your choice. Another type of search that it offers you is through combined filters and sorts as you wish. Thinking about your safety and comfort, Nómade allows you to view the lodging in detail to know all the features it offers and see the calendar of available dates before booking; if you do not wish to continue you can add the accommodation as a favorite in case you want to visit it another time; Otherwise, complete your reservation by making the payment and later you can contact the host through a private chat. In Nómade you can become a host, promote your accommodation business to generate income and get more reach with Nomad miles around the world; allows you to have better control over all your reservations in a controlled calendar.",
     "pictures": [
-      "/scrum-io/scrum-io-1.JPG",
-      "/scrum-io/scrum-io-2.JPG",
-      "/scrum-io/scrum-io-3.JPG",
-      "/scrum-io/scrum-io-4.JPG",
-      "/scrum-io/scrum-io-5.JPG"
+      "/Nomade/1.JPEG",
+      "/Nomade/2.JPEG",
+      "/Nomade/3.JPEG",
+      "/Nomade/4.JPEG",
+      "/Nomade/5.JPEG"
     ],
     "placeholder": "/placeholder-1.png",
-    "liveViewLink": "https://scrum-io.vercel.app/",
-    "githubLink": "https://github.com/SHIMER-jpg/Scrum.io/",
+    "liveViewLink": "https://nomade-khaki.vercel.app/",
+    "githubLink": "https://github.com/josefina17888/nomade",
     "techStack": [
       "ReactJS",
       "CSS3",
       "ReduxJS",
       "MongoDB",
       "ExpressJS",
-      "NodeJS",
-      "Socket.io"
+      "NodeJS"
     ]
   }
 ]

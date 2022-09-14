@@ -8,8 +8,6 @@ export default function TechnologiesAndSkills(){
         "NodeJS",
         "ReactJS",
         "ReduxJS",
-        "NextJS",
-        "Socket.io",
         "ExpressJS",
         "PostgreSQL",
         "MongoDB",
@@ -33,19 +31,25 @@ export default function TechnologiesAndSkills(){
                 <h2>Skills</h2>
                 <div className={styles.skillsList}>
                     <div className={styles.skill}>
-                        <h3>Self-taught</h3>
+                        <h3>Perseverance</h3>
                     </div>
                     <div className={styles.skill}>
-                        <h3>Fast learning</h3>
+                        <h3>Scrum</h3>
                     </div>
                     <div className={styles.skill}>
-                        <h3>Problems resolution</h3>
+                        <h3>Autodidact</h3>
                     </div>
                     <div className={styles.skill}>
-                        <h3>Teamwork</h3>
+                        <h3>Team Plater</h3>
                     </div>
                     <div className={styles.skill}>
-                        <h3>Self-sufficient</h3>
+                        <h3>Creativy</h3>
+                    </div>
+                    <div className={styles.skill}>
+                        <h3>Communicative</h3>
+                    </div>
+                    <div className={styles.skill}>
+                        <h3>Results-oriented</h3>
                     </div>
                 </div>
             </div>

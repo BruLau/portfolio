@@ -8,13 +8,13 @@
 	left: 0;
 	background: #030308; 
 	background: rgb(3,3,8);
-	background: linear-gradient(180deg, rgba(3,3,8,1) 0%, rgba(3,3,8,1) 80%, rgba(173,28,48,1) 100%);
+	background: linear-gradient(180deg, rgba(3,3,8,0.8) 0%, rgba(3,3,8,1) 80%, #39ff14 100%);
 	transition: all 0.15s ease-in-out;
 	z-index: 10000;
 
 	display: flex;
 }
-
+/* background-image: url("https://cdn.wallpapersafari.com/51/92/Dayux2.jpg") */
 .opening {
 	animation: fadeIn 0.35s;
 	animation-iteration-count: 1;
@@ -71,7 +71,7 @@
 }
 .option:hover,
 .option:hover a{
-	color: #EF2844;
+	color: #39ff14;
 	cursor: pointer;
 }
 
@@ -89,7 +89,7 @@
     transition: .5s all ease;
 }
 .icon:hover{
-    color: #EF2844;
+    color: #39ff14;
     cursor: pointer;
 }
 

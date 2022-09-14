@@ -19,13 +19,13 @@ a {
 }
 
 h1{
-  color: #EF2844;
+  color: #39ff14;
   font-size: 72px;
   line-height: 72px;
 }
 
 h2{
-  color: #EF2844;
+  color: #39ff14;
   font-size: 28px;
   line-height: 28px;
 }
@@ -61,27 +61,27 @@ p{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #EF2844;
+  background: #39ff14;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #EF2844;
+  background: #39ff14;
 }
 
 button{
-  color: #EF2844;
+  color: #39ff14;
   font-size: 1.8rem;
   font-weight: 600;
   padding: 10px 20px;
   border-radius: 8px;
-  border: 2px solid #EF2844;
+  border: 2px solid #39ff14;
   background: transparent;
   transition: all ease 0.5s;
 }
 
 button:hover{
   cursor: pointer;
-  background: #EF2844;
+  background: #39ff14;
   color: #030308;
 }

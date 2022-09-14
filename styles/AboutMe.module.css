@@ -35,6 +35,7 @@
     align-items: center;
     gap: 20px;
     position: relative;
+    width: 350%;
 }
 
 .photo{
@@ -52,7 +53,7 @@
     margin: auto;
 
     background-color: #0F0F0F;
-    border-left: 10px solid #EF2844;
+    border-left: 10px solid #39ff14;
     border-radius: 8px;
     padding: 20px;
 }
@@ -68,7 +69,7 @@
     font-weight: 600;
 }
 .title h3{
-    color: #EF2844;
+    color: #39ff14;
 }
 
 .description p{
@@ -77,12 +78,13 @@
 }
 
 .social{
-    color: #EF2844;
+    color: #39ff14;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    position: relative;
+    align-items: center;
+    align-self: flex-end;
     gap: 20px;
-    align-items: flex-start;
+   
 }
 
 .icon{
@@ -98,14 +100,15 @@
     position: relative;
     align-items: center;
     align-self: flex-end;
-    color: #EF2844;
+    color: #39ff14;
+    margin: auto;
 }
 .cvButton a{
     display: flex;
     position: relative;
     align-items: center;
     gap: 20px;
-    color: #EF2844;
+    color: #39ff14;
 }
 .cvButton a:hover,
 .cvButton a:hover h2{
@@ -115,4 +118,8 @@
 }
 .cvButton h2{
     font-weight: 600;
+}
+.botones{
+    display:inline-flex;
+    padding-right: 10px;
 }

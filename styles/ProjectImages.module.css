@@ -17,7 +17,7 @@
     height: 350px;
 
     box-shadow: 6px 6px 4px 1px rgba(161, 32, 50, 0.8);
-    border: 5px solid #EF2844;
+    border: 5px solid rgb(57, 255, 20);
 }
 
 .imagesCollection{
@@ -38,5 +38,5 @@
 }
 
 .imgSelected{
-    border: 5px solid #EF2844 !important;
+    border: 5px solid rgb(57, 255, 20) !important;
 }

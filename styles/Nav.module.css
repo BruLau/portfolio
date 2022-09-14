@@ -1,12 +1,16 @@
 .navHeader{
 	position: fixed;
-
-	background-color: #030308;
+	/* background-image: url("https://cdn.wallpapersafari.com/51/92/Dayux2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover; */
+	background-color: rgba(3,3,8,0.8);
 	z-index: 100000;
 
 	padding: 20px 40px;
 	width: 100%;
 	transition: all 0.35s ease;
+	border-bottom: 1px solid rgba(57, 255, 20,0.1);
 }
 
 .nobg{
@@ -21,7 +25,7 @@
 }
 
 .content a{
-	color: #EF2844;
+	color: #39ff14;
 
 	font-size: 2rem;
 	font-weight: 600;

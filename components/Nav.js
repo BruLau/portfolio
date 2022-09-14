@@ -13,7 +13,7 @@ export default function Nav({ isMenuOpen, toggleMenu }){
 			        role="button"
 			        label="Toggle menu"
 			        hideOutline={true}
-			        color="#EF2844"
+			        color="#39ff14"
 			        toggled={isMenuOpen}
 			        size={35}
 			        toggle={toggleMenu}

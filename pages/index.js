@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Fabrizio Tessaro</title>
+        <title>Bruno Lauricella</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

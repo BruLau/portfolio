@@ -9,26 +9,20 @@ import { GrMail } from "react-icons/gr";
 
 import styles from "../styles/Hero.module.css";
 import image from "../public/images/Code typing-bro.svg";
-
+import me from "../public/images/me.jpg";
 export default function Presentation(){
     return (
         <section id="home" className={styles.container}>
             <div className={styles.presentation}>
                 <div className={styles.name}>
                     <h3>Hello there! I&#8217;m</h3>
-                    <h1>Fabrizio Tessaro</h1>
+                    <h1>Bruno Lauricella</h1>
                     <h3>A Fullstack web developer</h3>
                 </div>
-                <div className={styles.description}>
-                    <h4>
-                        &#8220;I stand out for my optimism,<br/>
-                        no matter what problem or difficulty I face,<br/>
-                        always I&#8217;ll put a good face on and work to overcome it&#8221;.
-                    </h4>
-                </div>
+                
                 <div className={styles.social}>
                     <a 
-                        href="https://linkedin.com/in/fabrizio-tessaro" 
+                        href="https://www.linkedin.com/in/bruno-mateo-lauricella/" 
                         target="_blank" 
                         rel="noreferrer" 
                         aria-label="Linkedin"
@@ -36,7 +30,7 @@ export default function Presentation(){
                         <BsLinkedin className={styles.icon}/>
                     </a>
                     <a 
-                        href="https://github.com/fabriziotessaro" 
+                        href="https://github.com/BruLau" 
                         target="_blank" 
                         rel="noreferrer" 
                         aria-label="GitHub"
@@ -44,7 +38,7 @@ export default function Presentation(){
                         <BsGithub className={styles.icon}/>
                     </a>
                     <a 
-                        href="mailto:fabriziotessaro02@gmail.com" 
+                        href="mailto:brunomlauricella@gmail.com" 
                         aria-label="Email"
                     >
                         <GrMail className={styles.icon}/>
@@ -52,18 +46,17 @@ export default function Presentation(){
                 </div>
             </div>
             <div className={styles.image}>
-                <a 
-                    href="https://storyset.com/work" 
-                    target="_blank" 
-                    rel="noreferrer" 
-                    aria-label="Work illustrations by Storyset"
-                >
+
                     <Image 
-                        src={image} 
-                        alt="" 
-                        quality={100}
-                    />
-                </a>
+                    className={styles.imagePerfil}
+                            src={me} 
+                            alt="My Photo" 
+                            quality={100}
+                            layout="fill"
+                            objectFit="cover"
+                            placeholder="blur"
+                            blurDataURL="/placeholder-2.png"
+                        />
             </div>
         </section>
     )

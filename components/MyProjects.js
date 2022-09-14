@@ -6,9 +6,9 @@ import styles from "../styles/MyProjects.module.css";
 
 export default function MyProjects({ myProjects }){
 	return (
-		<section id="myprojects" className={styles.container}>
+		<section id="myprojects" className={styles.containerProyect}>
 			<div className={styles.title}>
-				<h1>My Projects</h1>
+				<h2>My Projects</h2>
 			</div>
 			<div className={styles.content}>
 				<div className={styles.collection}>
