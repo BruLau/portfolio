@@ -9,6 +9,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   overflow-x: hidden; /* <- ocultamos el scroll horizontal */
+  background-color: #000616;
 }
 
 a {
