@@ -63,3 +63,37 @@
     display: flex;
     justify-content: space-between;
 }
+@media screen and ( max-width : 980px){
+    .container{
+        display: block;
+        margin-top: 100px;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .image{
+        position: relative;
+        width: 50%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 40px;
+    }
+}
+@media screen and ( max-width : 745px){
+    .container{
+        display: block;
+        margin-top: 100px;    
+        align-content: center;
+    }
+    .image{
+        position: relative;
+        width: 90%;
+        height: 40%;
+        display: grid;
+        top: 40px;
+    }
+    .presentation{
+        align-content: center;
+    }
+}

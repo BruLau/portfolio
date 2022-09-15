@@ -35,7 +35,7 @@
     align-items: center;
     gap: 20px;
     position: relative;
-    width: 350%;
+    width: 85vw;
 }
 
 .photo{
@@ -122,4 +122,19 @@
 .botones{
     display:inline-flex;
     padding-right: 10px;
+}
+@media screen and ( max-width : 745px){
+    .container{
+        display: block;
+        margin-top: 100px;    
+        align-content: center;
+    }
+    .icon{
+        width: 1.5rem;
+        height: 1.5rem;
+        transition: .5s all ease;
+    }
+    .cvButton h2{
+        font-weight: 100;
+    }
 }

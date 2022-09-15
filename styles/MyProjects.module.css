@@ -28,3 +28,8 @@ padding-top: 8px;
 
     padding: 50px;
 }
+@media screen and ( max-width : 745px){
+    .collection{
+     
+    }
+}
