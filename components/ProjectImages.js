@@ -6,7 +6,6 @@ export default function ProjectImages({ selectedImage, name, imagesCollection, h
 	return(
 		<section className={styles.container}>
 			<div className={styles.selectedImage}>
-				{console.log(selectedImage)}
 				<Image 
                     src={ selectedImage} 
                     alt={name}
