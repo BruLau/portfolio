@@ -24,6 +24,12 @@ export default function ProjectImages({ selectedImage, name, imagesCollection, h
 						key={index}
 						onClick={() => handleImage(img)}
 					>			
+					
+					{console.log(name)}
+					{console.log(selectedImage)}
+					{console.log(imagesCollection)}
+					{console.log(handleImage)}
+					{console.log(placeholder)}
 						<Image
 			                layout="fill"
 			        		objectFit="cover"
