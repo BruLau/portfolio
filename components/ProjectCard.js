@@ -12,7 +12,7 @@ export default function ProjectCard({ id, name, shortDescription, pictures, plac
 				<Image
 					quality={100}
                     layout="fill"
-			        src={pictures[0]}
+			        src={pictures[0] }
 			        alt={name}
 			        placeholder="blur"
           			blurDataURL={placeholder}
