@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/ProjectCard.module.css";
-
+import me from "../public/images/me.jpg";
 //react-icons
 import { BsArrowRight } from "react-icons/bs";
 
