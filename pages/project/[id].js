@@ -8,7 +8,7 @@ import ProjectImages from "../../components/ProjectImages";
 
 export default function Home({ project }) {
   const [selectedImage, setSelectedImage] = useState(project.pictures[0]);
-
+console.log(project)
   const handleImage = (img) => {
     setSelectedImage(img);
   };

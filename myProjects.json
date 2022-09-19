@@ -5,11 +5,11 @@
     "shortDescription": "Final project of SoyHenry's full stack development bootcamp. Nomade is a service that lets property owners rent out their spaces to travelers looking for a place to stay.",
     "description": "Nómade offers you a unique experience as a traveler, you can find lodgings anywhere in the world, it offers you an interactive search through a map that contains information about the available lodgings, said map suggests possible lodgings according to your location, you can adjust it to verify accommodations in the destination of your choice. Another type of search that it offers you is through combined filters and sorts as you wish. Thinking about your safety and comfort, Nómade allows you to view the lodging in detail to know all the features it offers and see the calendar of available dates before booking; if you do not wish to continue you can add the accommodation as a favorite in case you want to visit it another time; Otherwise, complete your reservation by making the payment and later you can contact the host through a private chat. In Nómade you can become a host, promote your accommodation business to generate income and get more reach with Nomad miles around the world; allows you to have better control over all your reservations in a controlled calendar.",
     "pictures": [
-      "/1.JPG",
-      "/2.JPG",
-      "/3.JPG",
-      "/4.JPG",
-      "/5.JPG"
+      "/Nomade/1.JPG",
+      "/Nomade/2.JPG",
+      "/Nomade/3.JPG",
+      "/Nomade/4.JPG",
+      "/Nomade/5.JPG"
     ],
     "placeholder": "/placeholder-1.png",
     "liveViewLink": "https://nomade-khaki.vercel.app/",
