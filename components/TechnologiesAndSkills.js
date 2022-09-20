@@ -40,7 +40,7 @@ export default function TechnologiesAndSkills(){
                         <h3>Autodidact</h3>
                     </div>
                     <div className={styles.skill}>
-                        <h3>Team Plater</h3>
+                        <h3>Team Player</h3>
                     </div>
                     <div className={styles.skill}>
                         <h3>Creativy</h3>
