@@ -1,11 +1,11 @@
 import Head from "next/head";
 import { useState } from "react";
-
+import React from 'react';
 import projects from "../../myProjects.json";
 import styles from "../../styles/Project.module.css";
 import ProjectDetail from "../../components/ProjectDetail";
 import ProjectImages from "../../components/ProjectImages";
-
+import Fade from 'react-reveal/Fade';
 export default function Home({ project }) {
   const [selectedImage, setSelectedImage] = useState(project.pictures[0]);
 console.log(project)
@@ -28,6 +28,7 @@ console.log(project)
           handleImage={handleImage}
           placeholder={project.placeholder}
         />
+        
       </main>
     </>
   );
