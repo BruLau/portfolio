@@ -137,4 +137,18 @@
     .cvButton h2{
         font-weight: 100;
     }
+    .information{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: relative;
+        margin-right: 30px;
+    }
+    .arrowCv{
+        display: none;
+    }
+    .social{
+        margin-right: 30px;
+       
+    }
 }

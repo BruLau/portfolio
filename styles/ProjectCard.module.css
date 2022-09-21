@@ -43,3 +43,9 @@
 	width: 50%;
 	font-size: 18px;
 }
+@media screen and ( max-width : 745px){
+    .content{
+       
+		margin-right:100px;
+    }
+}

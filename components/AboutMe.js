@@ -69,7 +69,7 @@ export default function AboutMe(){
                             rel="noreferrer" 
                         >
                             <h2>Get Curriculum</h2> 
-                            <BsArrowRight size={"2.5rem"}/>
+                            <BsArrowRight className={styles.arrowCv} size={"2.5rem"}/>
                         </a>
                     </div>
                     </div>

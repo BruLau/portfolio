@@ -38,12 +38,14 @@
     .techStack{
         width: 50vw;
         grid-template-columns: repeat(2, 1fr);
-
+        margin-right: 30px;
     }
     .container{
         padding-top:0px;
         top: -250px;
     }
+    
+   
 }
 
 
