@@ -15,4 +15,4 @@ For the developing of this project i've used:
 - SEO.
 
 
-[Click to see my portfolio!](https://portfolio-fabriziotessaro.vercel.app/)
+[Click to see my portfolio!](https://portfolio-brulau.vercel.app/)
